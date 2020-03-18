@@ -22,25 +22,22 @@ a {
   background-color: transparent;
 }
 
+b,
+strong {
+  font-weight: bolder;
+}
+
 img {
   border-style: none;
 }
 
-button,
-input {
+button {
+  overflow: visible;
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
-  margin: 0;
-}
-
-button,
-input {
-  overflow: visible;
-}
-
-button {
   text-transform: none;
+  margin: 0;
 }
 
 button,
@@ -57,6 +54,10 @@ button::-moz-focus-inner,
 button:-moz-focusring,
 [type="button"]:-moz-focusring {
   outline: 1px dotted ButtonText;
+}
+
+[hidden] {
+  display: none;
 }
 
 /* ------------- END - Normalize styles ------------- */
